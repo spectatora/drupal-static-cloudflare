@@ -6,8 +6,8 @@
 * When it finishes run `cd drupal_site` and then `drush serve`
 * open the "ports" tab (right next to the terminal) and use the link under the "Local Address" to open your drupal instance
 * admin login is
- * ACC: admin
- * PASS: 123
+  * ACC: admin
+  * PASS: 123
 
 ## Note:
 * if you come back after some days - just start the codespaces again, go to the `drupal_site` folter, run `drush serve` again and in the `ports` tab follow the link to access your site 
