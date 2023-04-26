@@ -10,4 +10,4 @@
   * PASS: 123
 
 ## Note:
-* if you come back after some days - just start the codespaces again, go to the `drupal_site` folter, run `drush serve` again and in the `ports` tab follow the link to access your site 
+* if you come back after some days - just start the codespaces again, go to the `drupal_site` folder, run `drush serve` again and in the `ports` tab follow the link to access your site 
