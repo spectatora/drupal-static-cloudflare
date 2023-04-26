@@ -1,13 +1,14 @@
 # Drupal on Codespaces
 
 ## Quickstart
-
-* Open this project in Codespaces
-* Open the terminal
-* Create a Drupal project: `composer create-project drupal/recommended-project <myfolder>`
-* Enter the created folder: `cd <myfolder>`
-* Add Drush: `composer require drush/drush`
-* Start the Drupal installation: `drush si` - specify **sqlite** as Database driver, defaults otherwise!
-* Optional: Change the admin password: `drush upwd admin <password>`
-* Optional: Generate initial support for services code completion (see below): `drush generate phpstorm-metadata`
-* Run the development server: `drush serve`
+* Open this project in Codespaces (google it if you still don't know how)
+* When it starts run `sh setup.sh`
+* When it asks for:
+** `Database name [drupal]:` just hit enter
+** `Database driver [mysql]:` write `sqlite` and hit enter (it doesn't support mysql)
+** `Database username [drupal]:` hit enter
+** `Database password [drupal]:` hit enter
+** `Database host [127.0.0.1]:` hit enter
+** `Database port [3306]:` just hit enter
+** `Do you want to continue? (yes/no) [yes]:` hit enter
+* When it finishes run `cd drupal_site` and then `drush serve`
