@@ -11,3 +11,5 @@
 
 ## Note:
 * if you come back after some days - just start the codespaces again, go to the `drupal_site` folder, run `drush serve` again and in the `ports` tab follow the link to access your site 
+
+* NOTE: if "drush" doesn't work - use "vendor/bin/drush" instead. Example: `vendor/bin/drush serve` (inside the drupal folder).
